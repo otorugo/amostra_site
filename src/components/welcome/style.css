@@ -1,0 +1,26 @@
+.Welcome {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  background-color: var(--background);
+}
+
+.Welcome > .content {
+    text-align: justify;
+    margin: auto 0;
+}
+
+.Welcome > .content > .title {
+    color: var(--primary);
+    font-size: 2.1rem;
+}
+
+.Welcome > .content > .description {
+    color: var(--on-background);
+}
+
+
+.img-container > div > img {
+  position: absolute;
+  width: 25%;
+  min-width: 450px;
+}

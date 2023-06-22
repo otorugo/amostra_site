@@ -1,0 +1,15 @@
+.Pacient {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  background-color: var(--alternative-background);
+}
+
+.Pacient > .token {
+  display: grid;
+  grid-template-rows: 2fr 1fr 3fr;
+}
+
+.Pacient > .token_info {
+  display: grid;
+  grid-template-rows: 4fr 3fr;
+}

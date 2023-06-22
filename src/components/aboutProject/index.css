@@ -1,0 +1,19 @@
+.AboutProject {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* padding-right: 10rem; */
+}
+
+.AboutProject > .content {
+  padding: 1rem;
+  margin: auto 0;
+}
+
+.AboutProject > .content > .title {
+  font-size: 2.1rem;
+  color: var(--primary);
+}
+
+.AboutProject > .content > .description {
+  color: var(--on-background);
+}

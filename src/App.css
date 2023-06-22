@@ -1,0 +1,13 @@
+:root {
+  --background: #272727;
+  --alternative-background: #d1d1d1;
+  --on-background: #ffffff;
+  --primary: #33ebff;
+  --secondary: #002D6E;
+}
+
+.App {
+  display: grid;
+  /* navbar rotation welcome paciente about reason roadmap aboutus faq*/
+  grid-template-rows: 6rem 35rem 27rem 55rem  40rem ;
+}

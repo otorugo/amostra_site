@@ -1,0 +1,13 @@
+.Roadmap {
+  display: grid;
+  grid-template-rows: 1fr 30rem;
+}
+
+.Roadmap > .road {
+  background-color: var(--background);
+}
+
+.Roadmap > .description {
+  grid-row: 2/3;
+  background-color: var(--alternative-background);
+}

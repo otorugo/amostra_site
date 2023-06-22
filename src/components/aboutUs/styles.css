@@ -1,0 +1,10 @@
+.AboutUs{
+    background-color: var(--primary);
+}
+
+.AboutUs > .title {
+    text-align: center;
+    color: var(--secondary);
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}

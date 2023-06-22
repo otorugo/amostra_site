@@ -1,0 +1,32 @@
+.Reason {
+    display: grid;
+    grid-template-columns: 10rem 1fr 40rem;
+    /* background-color: var(--background); */
+    background-color: var(--primary);
+  }
+
+.Reason > .content {
+  margin: auto 0;
+  grid-column: 2/3;
+}
+
+.Reason > .content > .title {
+  font-size: 1.8rem;
+}
+.Reason > .reason-image > img{
+  overflow: hidden;
+  width: 40rem;  
+  /* position: absolute; */
+  /* transform: translateX(-10%); */
+  /* transform: translateY(-10%); */
+}
+
+
+.Reason > .reason-image > img{
+  /* object-fit: fill; */
+  /* position: absolute; */
+  /* background-color: black; */
+  /* overflow: hidden; */
+  /* transform: translateX(-10%);
+  transform: translateY(-10%); */
+}

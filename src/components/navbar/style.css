@@ -1,0 +1,31 @@
+.NavBar {
+  background-color: var(--background);
+  color: var(--on-background);
+  display: flex;
+}
+
+.NavBar > .logo {
+  flex-grow: 1;
+  align-self: center;
+}
+
+.NavBar > .logo > img {
+  display: block;
+  margin: 0 auto;
+}
+
+.NavBar > .options {
+  flex-grow: 1.2;
+  padding: 0 10rem;
+}
+
+.NavBar > .options > ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NavBar > .options > ul > li {
+  cursor: pointer;
+}
